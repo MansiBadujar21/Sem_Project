@@ -10,10 +10,10 @@ The chatbot can also pull information from databases or external sources to give
  The main goal of this project is to reducehuman workload, provide instant support, and make operations smoother within the organization. With the ability to learn and adapt, the chatbot will offer more useful and personalized assistance, helping users with tasks like retrieving information, answering queries, and making decisions, ultimately boosting overall organizational efficiency.
 # Technology
 Python 
-ML
-NLP
-JavaScript
-HTML/CSS.
+,ML
+,NLP
+,JavaScript
+,HTML/CSS.
 
 
 
