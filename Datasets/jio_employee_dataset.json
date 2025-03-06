@@ -1,0 +1,837 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hello",
+                "Hi",
+                "Hey",
+                "Good morning",
+                "Good evening",
+                "Howdy",
+                "What's up?",
+                "Greetings",
+                "Hey there",
+                "Hello there",
+                "Good afternoon",
+                "Hi, how are you?",
+                "Hey, how's it going?",
+                "Yo!",
+                "How's your day?",
+                "Nice to meet you",
+                "Long time no see",
+                "Pleasure to meet you",
+                "Hey, what's happening?",
+                "How have you been?",
+                "Hi, what's new?",
+                "Salutations",
+                "Hi there, buddy!",
+                "Hey, hope you're doing well!",
+                "Good to see you!",
+                "Hi friend!",
+                "Hey, need any help?",
+                "Hi, how can I assist?"
+            ],
+            "responses": [
+                "Hello! How can I assist you regarding Jio today?",
+                "Hi there! How can I help with your queries?",
+                "Hey! What can I do for you today?",
+                "Good day! Let me know how I can assist you.",
+                "Howdy! Need any help?",
+                "Hello there! How’s your day going?",
+                "Hey! I'm here to help with any Jio-related queries."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Take care",
+                "Catch you later",
+                "See you soon",
+                "Talk to you later",
+                "Farewell",
+                "Bye for now",
+                "Until next time",
+                "Have a great day!",
+                "Good night",
+                "See you around",
+                "Peace out",
+                "Adios",
+                "See you next time",
+                "Later alligator",
+                "Bye bye",
+                "See you in a while",
+                "Have a good one"
+            ],
+            "responses": [
+                "Goodbye! Have a great day at Jio!",
+                "See you later! Feel free to ask anytime.",
+                "Take care! Let me know if you need any help in the future.",
+                "Goodbye! Reach out whenever you need assistance."
+            ]
+        },
+        {
+            "tag": "hr_policy",
+            "patterns": [
+                "What are the HR policies?",
+                "Tell me about Jio's leave policy.",
+                "How many leave days do I have?",
+                "Can you explain the company's dress code?",
+                "What are the employee benefits at Jio?",
+                "What is the probation period at Jio?",
+                "How do I apply for sick leave?",
+                "What is the work-from-home policy?",
+                "Does Jio offer parental leave?",
+                "What is the policy on overtime pay?",
+                "Are there flexible working hours?",
+                "How do I report workplace misconduct?",
+                "Where can I access HR policy documents?",
+                "Does Jio provide health insurance?",
+                "How do I file a grievance with HR?",
+                "What is the process for internal job transfers?"
+            ],
+            "responses": [
+                "Jio employees are entitled to 30 leave days per year.",
+                "Please check the HR portal for detailed policy documents.",
+                "For sick leave, submit a request via the HR system and provide necessary medical documents.",
+                "Jio provides comprehensive employee benefits including health insurance, flexible work policies, and parental leave."
+            ]
+        },
+        {
+            "tag": "it_support",
+            "patterns": [
+                "My email is not working",
+                "How do I reset my Jio work email password?",
+                "The internet is too slow in the office",
+                "My system is freezing frequently",
+                "How do I request new software installation?",
+                "The VPN connection keeps dropping",
+                "My system is not booting up",
+                "The printer is printing blank pages",
+                "I am unable to access the company portal",
+                "How do I connect to the office Wi-Fi?",
+                "How do I install security updates on my laptop?",
+                "My system has a virus, what should I do?",
+                "I forgot my system login credentials, how do I recover them?",
+                "I need admin access for software installation, how can I request it?"
+            ],
+            "responses": [
+                "Please contact IT support at ithelp@jio.com.",
+                "Reset your password via the Jio IT support portal.",
+                "For slow internet, ensure no large downloads are running and restart your router.",
+                "If your system is freezing, try restarting and clearing cache memory."
+            ]
+        },
+        {
+            "tag": "hardware_support",
+            "patterns": [
+                "My laptop is overheating",
+                "The printer is not working",
+                "How do I install a new RAM module?",
+                "My system is running slow",
+                "The monitor is flickering",
+                "I need help with my keyboard",
+                "My external hard drive is not detecting",
+                "How to set up a new workstation?",
+                "My webcam is not working",
+                "How do I connect a second monitor?",
+                "The microphone is not picking up sound",
+                "My graphics card is not detected",
+                "How do I fix a stuck key on my keyboard?",
+                "My laptop screen is cracked, what should I do?",
+                "The battery is draining too fast, how can I fix it?",
+                "How do I replace my laptop's SSD?",
+                "My touchpad is not responding, what should I do?",
+                "How do I connect a wireless keyboard to my PC?",
+                "My speakers are not producing sound, any fix?",
+                "The USB ports on my laptop stopped working, how can I troubleshoot?"
+            ],
+            "responses": [
+                "Try cleaning the laptop vents and using a cooling pad to reduce overheating.",
+                "Ensure the printer is connected properly and restart the device.",
+                "You can install RAM by opening your PC cabinet and securely placing the module in an empty slot.",
+                "For system performance issues, consider disk cleanup, software updates, and freeing up space.",
+                "Monitor flickering can be due to loose connections or refresh rate settings—please check them.",
+                "For detailed assistance, please contact IT support at ithelp@jio.com."
+            ]
+        },
+        {
+            "tag": "software_support",
+            "patterns": [
+                "My software is crashing",
+                "How do I update my applications?",
+                "I need help installing new software",
+                "My system is showing a blue screen error",
+                "The application is freezing frequently",
+                "How do I recover a deleted file?",
+                "My email client is not syncing",
+                "How do I enable dark mode in the software?",
+                "My antivirus is blocking an application",
+                "How do I set up a VPN connection?",
+                "How to reinstall the operating system?",
+                "How do I restore factory settings?",
+                "How to enable auto-updates for my software?",
+                "My software license key is not working",
+                "How do I troubleshoot a slow internet connection on my system?",
+                "My cloud storage is not syncing, what should I do?",
+                "How do I clear cache for a specific application?",
+                "The software is not responding, should I force quit?",
+                "How do I uninstall unnecessary programs safely?",
+                "My screen resolution changed after an update, how do I fix it?"
+            ],
+            "responses": [
+                "Try reinstalling the software or checking for updates to fix crashes.",
+                "You can update applications through the software settings or contact IT for assistance.",
+                "Use the company software portal to install new applications, or reach out to IT support.",
+                "A blue screen error can indicate hardware or driver issues—please restart and check for updates.",
+                "If an application keeps freezing, try clearing its cache or reinstalling.",
+                "Deleted files may be recoverable from the recycle bin or using recovery software.",
+                "If your email client isn’t syncing, check internet connectivity and account settings.",
+                "Dark mode can be enabled in software settings under 'Appearance' or 'Theme'."
+            ]
+        },
+        {
+            "tag": "company_projects",
+            "patterns": [
+                "What are Jio's upcoming projects?",
+                "Tell me about the latest Jio initiatives.",
+                "Is Jio working on any AI projects?",
+                "What are the expansion plans for Jio Fiber?",
+                "Are there any upcoming collaborations with other companies?",
+                "What are Jio’s sustainability initiatives?",
+                "How is Jio contributing to 5G development?",
+                "What are the R&D teams working on?",
+                "Is Jio launching any new digital products?"
+            ],
+            "responses": [
+                "Jio is working on 5G expansion and AI-driven customer service solutions.",
+                "For detailed project updates, check the internal news portal.",
+                "Jio is focused on developing next-gen digital solutions, including AI and IoT-driven services."
+            ]
+        },
+        {
+            "tag": "document_processing",
+            "patterns": [
+                "Summarize this document",
+                "Extract key information from this PDF",
+                "How do I convert a document to PDF?",
+                "Can you translate this document?",
+                "How do I digitally sign a document?",
+                "Can I scan a document using my phone?",
+                "How do I extract text from an image?",
+                "What is the best way to organize documents?"
+            ],
+            "responses": [
+                "Uploading and analyzing your document... Please wait.",
+                "I'll summarize the key points from the uploaded file.",
+                "To convert documents to PDF, use online tools or Microsoft Word's 'Save as PDF' option."
+            ]
+        },
+        {
+            "tag": "security_policy",
+            "patterns": [
+                "What are the cybersecurity guidelines at Jio?",
+                "How do I report a security issue?",
+                "How do I create a strong password?",
+                "What is Jio's data protection policy?",
+                "How do I avoid phishing scams?",
+                "Can I use personal devices for work?",
+                "What should I do if my company device is lost?",
+                "How do I encrypt sensitive files?"
+            ],
+            "responses": [
+                "Follow the security guidelines mentioned in the employee handbook.",
+                "Report security concerns at security@jio.com.",
+                "Always use strong passwords with a mix of letters, numbers, and symbols."
+            ]
+        },
+        {
+            "tag": "bad_language_filter",
+            "patterns": [
+                "You are useless",
+                "This is stupid",
+                "You're a bad chatbot",
+                "You don’t help at all",
+                "This is the worst AI ever",
+                "You are dumb",
+                "I hate this chatbot"
+            ],
+            "responses": [
+                "Please maintain a professional tone.",
+                "Let's keep the conversation respectful.",
+                "I'm here to assist you, let’s work together to resolve your issue."
+            ]
+        },
+        {
+            "tag": "2FA_setup",
+            "patterns": [
+                "How do I enable 2FA for my Jio account?",
+                "What is the process for two-factor authentication?",
+                "How do I recover my 2FA backup codes?",
+                "Can I set up 2FA on multiple devices?",
+                "I lost access to my authentication app, what should I do?",
+                "How do I disable 2FA?"
+            ],
+            "responses": [
+                "Enable 2FA through the security settings in your Jio account.",
+                "Check your email for the authentication setup link.",
+                "If you lost access to your authentication app, contact IT support to reset your 2FA settings."
+            ]
+        },
+        {
+            "tag": "meeting_schedule",
+            "patterns": [
+                "How do I schedule a meeting?",
+                "Can I book a conference room at Jio headquarters?",
+                "What platform should I use for virtual meetings?",
+                "How do I send a calendar invite?",
+                "Can I reschedule a meeting?",
+                "How do I check conference room availability?",
+                "How do I add an agenda to a meeting invite?",
+                "Can I record a virtual meeting?"
+            ],
+            "responses": [
+                "Use the Jio intranet portal to schedule meetings.",
+                "Conference rooms can be booked via the internal calendar system.",
+                "For virtual meetings, use Microsoft Teams or Zoom."
+            ]
+        },
+        {
+            "tag": "salary_details",
+            "patterns": [
+                "When is my salary credited?",
+                "How do I check my salary slip?",
+                "What deductions are applied to my salary?",
+                "How do I update my bank details for salary credit?",
+                "Where can I see my bonus details?",
+                "Who should I contact if my salary is incorrect?",
+                "Is there a delay in salary payment this month?",
+                "How do I check my tax deductions?",
+                "Can I get an advance on my salary?",
+                "Does Jio provide performance-based salary hikes?"
+            ],
+            "responses": [
+                "Your salary is credited on the last working day of the month.",
+                "Check your salary slip via the Jio employee portal.",
+                "For any issues with salary credit, please contact HR at hr@jio.com."
+            ]
+        },
+        {
+            "tag": "vpn_access",
+            "patterns": [
+                "How do I connect to Jio's VPN?",
+                "I cannot access the VPN",
+                "VPN is disconnecting frequently, how do I fix it?",
+                "How do I change my VPN password?",
+                "Which VPN client should I use?",
+                "My VPN is blocking certain websites, what should I do?",
+                "Can I use VPN on my mobile device?",
+                "How do I troubleshoot slow VPN speed?",
+                "Why is my VPN connection slow?",
+                "Can I access Jio’s VPN from any country?",
+                "What are the common VPN errors and how do I fix them?",
+                "How do I request VPN access for remote work?"
+            ],
+            "responses": [
+                "Use your company credentials and follow the VPN setup guide on the IT portal.",
+                "Ensure your internet connection is stable and try again.",
+                "If you still face issues, please contact IT support at ithelp@jio.com.",
+                "VPN speed can be affected by network congestion or background downloads. Close unnecessary applications and switch to a wired connection for better performance.",
+                "Jio’s VPN access is restricted in some countries due to legal compliance. Check with IT support before traveling.",
+                "Common VPN errors include authentication failures and connection timeouts. Restart your router, check your credentials, and contact IT if issues persist.",
+                "To request VPN access, submit a request through the IT support portal and get approval from your manager."
+            ]
+        },
+        {
+            "tag": "holiday_list",
+            "patterns": [
+                "What are the company holidays?",
+                "Is Diwali a holiday at Jio?",
+                "Where can I find the annual holiday list?",
+                "Do we get paid leave on national holidays?",
+                "Is Christmas a holiday at Jio?",
+                "How many public holidays does Jio provide?",
+                "Can I swap my holiday with another day?"
+            ],
+            "responses": [
+                "You can find the holiday list on the HR portal.",
+                "Yes, Diwali is a company holiday.",
+                "For special holiday requests, please consult your manager."
+            ]
+        },
+        {
+            "tag": "company_events",
+            "patterns": [
+                "When is the next company event?",
+                "Are there any team-building activities?",
+                "What social events does Jio organize?",
+                "Are there any upcoming leadership meetings?",
+                "Is there a yearly awards function at Jio?",
+                "How do I register for company events?",
+                "Can I bring a guest to corporate events?",
+                "Are there virtual events for remote employees?",
+                "Who do I contact for event sponsorship opportunities?"
+            ],
+            "responses": [
+                "The next Jio event is scheduled for March 25th.",
+                "Yes, we have monthly team-building activities.",
+                "For event registration and details, check the Jio internal portal."
+            ]
+        },
+        {
+            "tag": "expense_reimbursement",
+            "patterns": [
+                "How do I claim travel expenses?",
+                "What is the reimbursement process?",
+                "How long does it take to get reimbursed?",
+                "Where do I submit my receipts for reimbursement?",
+                "Can I get reimbursed for client entertainment expenses?",
+                "What is the maximum limit for travel reimbursements?",
+                "Who approves reimbursement requests?",
+                "How do I check the status of my reimbursement claim?"
+            ],
+            "responses": [
+                "Submit your receipts via the finance portal.",
+                "Reimbursements are processed within 7 working days.",
+                "For specific reimbursement policies, refer to the finance guidelines on the HR portal."
+            ]
+        },
+        {
+            "tag": "job_openings",
+            "patterns": [
+                "Are there any job openings at Jio?",
+                "How do I apply for a job at Jio?",
+                "What are the current vacancies?",
+                "Does Jio hire fresh graduates?",
+                "Where can I find internal job postings?",
+                "How do I refer someone for a job at Jio?",
+                "What is the recruitment process at Jio?",
+                "How do I track my job application status?"
+            ],
+            "responses": [
+                "Check the careers page on our website.",
+                "You can apply via the Jio HR portal.",
+                "For internal job transfers, visit the internal mobility section on the HR portal."
+            ]
+        },
+        {
+            "tag": "work_from_home",
+            "patterns": [
+                "Can I work from home?",
+                "What is Jio's remote work policy?",
+                "Are there any hybrid work options available?",
+                "How do I request WFH approval?",
+                "Can I work remotely from another city?",
+                "Does Jio provide internet reimbursement for remote employees?",
+                "Are there security guidelines for working remotely?"
+            ],
+            "responses": [
+                "Remote work is allowed for specific roles with manager approval.",
+                "Check with your supervisor for WFH eligibility.",
+                "Review the WFH guidelines on the HR portal for details on remote work policies."
+            ]
+        },
+        {
+            "tag": "training_programs",
+            "patterns": [
+                "Are there any training programs for employees?",
+                "How do I enroll in a professional course at Jio?",
+                "What technical training does Jio offer?",
+                "Is there leadership training available?",
+                "Does Jio provide sponsorships for certification courses?",
+                "Can I access training sessions remotely?",
+                "How do I track my completed training modules?"
+            ],
+            "responses": [
+                "Check the learning portal for available courses.",
+                "You can enroll via the HR system.",
+                "Jio offers various professional training programs—visit the learning section on the HR portal."
+            ]
+        },
+        {
+            "tag": "workplace_harassment",
+            "patterns": [
+                "How do I report workplace harassment?",
+                "What is Jio's anti-harassment policy?",
+                "Who should I contact if I face harassment at work?",
+                "What steps are taken after reporting harassment?",
+                "Is my complaint confidential?",
+                "How does Jio ensure a safe work environment?",
+                "Can I report harassment anonymously?",
+                "What training does Jio provide on harassment prevention?",
+                "Are there legal consequences for workplace harassment?",
+                "What support is available for victims of harassment?"
+            ],
+            "responses": [
+                "You can report incidents confidentially to HR.",
+                "We have a strict zero-tolerance policy towards harassment.",
+                "For further assistance, contact HR at hr@jio.com."
+            ]
+        },
+        {
+            "tag": "promotion_criteria",
+            "patterns": [
+                "How does promotion work at Jio?",
+                "What are the criteria for getting a promotion?",
+                "How often are promotions given?",
+                "Does Jio have a performance review system?",
+                "Are promotions based on seniority or performance?",
+                "What should I do to increase my chances of promotion?",
+                "How do I apply for an internal promotion?",
+                "How do I increase my chances of getting promoted?",
+                "What are the requirements for a senior position at Jio?",
+                "Is there a minimum tenure required for promotions?",
+                "How do I apply for an internal job transfer?"
+            ],
+            "responses": [
+                "Promotions are based on performance and experience.",
+                "Annual appraisals determine promotions.",
+                "For promotion guidelines, check the HR policy documents.",
+                "To improve promotion chances, consistently exceed your job expectations, take on additional responsibilities, and seek feedback from leadership.",
+                "Senior positions require proven leadership, expertise in your domain, and a track record of delivering results.",
+                "Promotions typically consider performance over tenure, but internal transfers may require a minimum of 12-24 months in the current role.",
+                "Apply for internal job transfers through the HR portal and discuss your interests with your manager."
+            ]
+        },
+        {
+            "tag": "meeting_rooms",
+            "patterns": [
+                "How do I book a meeting room?",
+                "Is the conference hall available for booking?",
+                "Can I book a room for a client meeting?",
+                "What are the rules for reserving meeting spaces?",
+                "How do I check the availability of a conference room?",
+                "Can I cancel a meeting room booking?",
+                "Are meeting rooms equipped with video conferencing tools?"
+            ],
+            "responses": [
+                "You can book meeting rooms via the Jio internal portal.",
+                "Use Outlook or the office scheduler for reservations.",
+                "Check the room availability on the intranet before booking."
+            ]
+        },
+        {
+            "tag": "technical_issue",
+            "patterns": [
+                "My laptop is not working",
+                "My email is not syncing",
+                "How do I update my system software?",
+                "My mouse is not responding",
+                "How do I fix a frozen screen?",
+                "The system is overheating, what should I do?",
+                "My internet is disconnecting frequently",
+                "How do I run a system diagnostic?"
+            ],
+            "responses": [
+                "Please contact the IT support team.",
+                "Try restarting your system and check the IT portal for help.",
+                "For urgent assistance, contact ithelp@jio.com."
+            ]
+        },
+        {
+            "tag": "internet_usage_policy",
+            "patterns": [
+                "Can I use social media at work?",
+                "What are the internet usage rules at Jio?",
+                "Is personal browsing allowed on office devices?",
+                "Can I download software on my work computer?",
+                "Are there restrictions on streaming services at work?",
+                "What websites are blocked in the office?",
+                "Can I use my own internet connection at work?",
+                "Are employees monitored for internet activity?"
+            ],
+            "responses": [
+                "Social media is allowed during breaks.",
+                "Excessive personal use of the internet is discouraged.",
+                "Please follow the company's IT policies regarding internet usage."
+            ]
+        },
+        {
+            "tag": "client_issue",
+            "patterns": [
+                "A client is experiencing slow internet speed on JioFiber, how do I resolve it?",
+                "A JioMart vendor is facing payment processing issues, what steps should be taken?",
+                "Customers are reporting buffering problems on JioTV, how do I fix this?",
+                "A client is unable to access their JioCloud storage, how can I help?",
+                "JioChat users are experiencing message delivery delays, what is the solution?",
+                "A JioMart customer is facing checkout failures, how do I assist them?",
+                "A JioTV subscriber is unable to stream live events, what troubleshooting steps should be followed?",
+                "A business client is facing issues with Jio Business Solutions, what should I do?",
+                "A JioMeet user is unable to join a meeting, how do I troubleshoot?"
+            ],
+            "responses": [
+                "For slow JioFiber speeds, check bandwidth usage, reboot the router, and ensure no network congestion in the area.",
+                "For JioMart vendor payment issues, verify transaction logs, ensure banking details are correct, and escalate to the finance team if needed.",
+                "For JioTV buffering, optimize CDN performance, ensure adaptive bitrate streaming is working, and check server load balancing.",
+                "For JioCloud access issues, verify user authentication, ensure storage quota is not exceeded, and check for any ongoing maintenance."
+            ]
+        },
+        {
+            "tag": "jio_project_specific",
+            "patterns": [
+                "I am working on the Jio 5G expansion project, but I am facing network optimization issues.",
+                "How do I troubleshoot connectivity problems in the JioFiber project?",
+                "I am involved in JioMart development, how do I handle real-time inventory updates?",
+                "What are the best practices for improving AI-driven customer support in JioChat?",
+                "I am working on JioTV content recommendation, how do I enhance personalization?",
+                "How do I manage logistics and vendor coordination in JioMart?",
+                "I am developing an AI-based product recommendation engine for JioMart, how do I optimize it?",
+                "How do I improve ad targeting and monetization strategies for JioTV?",
+                "How can I enhance security protocols for JioCloud services?",
+                "What data analytics strategies can I use to improve Jio's customer engagement?"
+            ],
+            "responses": [
+                "For Jio 5G expansion, ensure proper network load balancing and optimize spectrum allocation for better connectivity.",
+                "For JioFiber connectivity issues, check for fiber line integrity, router configurations, and perform speed tests.",
+                "In JioMart, use real-time inventory tracking systems with predictive restocking algorithms to maintain product availability.",
+                "For JioChat AI-driven customer support, implement sentiment analysis, intent recognition, and chatbot reinforcement learning."
+            ]
+        },
+        {
+            "tag": "employee_real_life_queries",
+            "patterns": [
+                "How do I request an onsite opportunity in another country?",
+                "What is the process for applying for an international transfer at Jio?",
+                "Can I change my work shift timing at Jio?",
+                "How do I request a shift change from night shift to day shift?",
+                "What is the procedure to apply for a role change within Jio?",
+                "How can I switch to a different department at Jio?",
+                "I want to transition to a different job role, what steps should I take?",
+                "How do I apply for paid maternity/paternity leave at Jio?",
+                "What is the process to request relocation assistance from Jio?",
+                "How do I escalate workplace concerns to HR?",
+                "Can I apply for sabbatical leave?",
+                "How do I request a transfer to another branch?"
+            ],
+            "responses": [
+                "To request an onsite opportunity, discuss with your manager and apply through the Jio internal mobility portal.",
+                "For international transfers, approval from HR and management is required. Submit a request via the HR portal.",
+                "Shift change requests need manager approval. Apply through the HRMS system and state a valid reason.",
+                "For relocation assistance, contact HR and review company policies on moving support."
+            ]
+        },
+        {
+            "tag": "unresolved_issue",
+            "patterns": [
+                "I need further help",
+                "The solution did not work",
+                "I still have the issue",
+                "Can I talk to HR?",
+                "Who can help me with this?",
+                "The problem persists, what should I do?",
+                "This issue is not resolved yet, who do I contact?",
+                "None of the solutions worked, what next?",
+                "I need to escalate this issue, who should I reach out to?",
+                "How can I get direct IT support?",
+                "I need urgent support for my issue, what should I do?",
+                "Is there a helpline for IT problems?"
+            ],
+            "responses": [
+                "I’m sorry I couldn't resolve your issue. Please contact company HR at hr@jio.com for further assistance.",
+                "For unresolved issues, reach out to IT support at ithelp@jio.com or HR at hr@jio.com.",
+                "Please escalate this issue to HR by emailing hr@jio.com. They will guide you further.",
+                "You can also visit the IT helpdesk at your office location for immediate assistance."
+            ]
+        },
+        {
+            "tag": "career_growth",
+            "patterns": [
+                "How can I grow my career at Jio?",
+                "What are the career development opportunities?",
+                "Does Jio offer mentorship programs?",
+                "How do I get promoted faster at Jio?",
+                "Are there leadership training programs available?"
+            ],
+            "responses": [
+                "Jio offers career development programs and mentorship. Visit the HR portal for more details.",
+                "Employees can apply for leadership training and internal job postings through the HR system.",
+                "Discuss your career goals with your manager for guidance on promotion opportunities."
+            ]
+        },
+        {
+            "tag": "remote_work_tools",
+            "patterns": [
+                "What tools does Jio provide for remote work?",
+                "How do I access company resources from home?",
+                "Which software should I use for remote collaboration?",
+                "Is there a VPN for remote work?",
+                "Can I request a company laptop for working from home?"
+            ],
+            "responses": [
+                "Jio provides VPN access and collaboration tools like Microsoft Teams for remote work.",
+                "You can access company resources through the secure remote portal.",
+                "For hardware requests, contact IT support for eligibility and approval."
+            ]
+        },
+        {
+            "tag": "wellness_programs",
+            "patterns": [
+                "Does Jio offer mental health support?",
+                "Are there employee wellness programs?",
+                "How do I sign up for a fitness program at Jio?",
+                "Is there a counseling service available for employees?",
+                "Does Jio provide stress management workshops?"
+            ],
+            "responses": [
+                "Jio offers wellness programs, including fitness plans and counseling services. Visit the HR portal for details.",
+                "Employees can access stress management workshops and mental health resources via the HR system.",
+                "For counseling services, reach out to HR for confidential support."
+            ]
+        },
+        {
+            "tag": "employee_benefits",
+            "patterns": [
+                "What are the employee benefits at Jio?",
+                "Does Jio offer health insurance?",
+                "Are there any employee discounts?",
+                "What perks do Jio employees get?",
+                "Do we have flexible work hours?"
+            ],
+            "responses": [
+                "Jio offers health insurance, performance bonuses, and flexible work options.",
+                "Employees receive various perks including discounts, wellness programs, and training opportunities.",
+                "For a detailed list of benefits, please visit the HR portal."
+            ]
+        },
+        {
+            "tag": "leave_policy",
+            "patterns": [
+                "How many paid leaves do I get?",
+                "What is the sick leave policy at Jio?",
+                "Can I carry forward my unused leaves?",
+                "How do I apply for leave?",
+                "What is the procedure for emergency leave?",
+                "What happens if I exceed my annual leave quota?",
+                "Can I encash my unused leave days?",
+                "How long does it take for my leave request to get approved?",
+                "What should I do if my leave request is rejected?"
+            ],
+            "responses": [
+                "Employees receive annual, sick, and emergency leaves as per company policy.",
+                "You can apply for leave through the HRMS portal.",
+                "Check the leave policy document on the HR portal for more details.",
+                "If you exceed your leave quota, you may need to apply for unpaid leave or request approval for special cases from HR.",
+                "Some leave days can be encashed depending on company policy. Check the HR portal for details on eligibility and encashment process.",
+                "Leave requests are usually approved within 48 hours. If urgent, notify your manager directly for faster processing.",
+                "If your leave request is rejected, discuss with your manager to understand the reason and check alternative dates that suit both your needs and business requirements."
+            ]
+        },
+        {
+            "tag": "team_collaboration",
+            "patterns": [
+                "How do I collaborate with other teams?",
+                "What tools does Jio use for teamwork?",
+                "Can I create a group chat for my team?",
+                "How do I schedule a team brainstorming session?",
+                "Is there a project management tool available?",
+                "What is the best way to communicate with my team at Jio?",
+                "How do I schedule a brainstorming session?",
+                "Can I request additional collaboration tools?",
+                "What project management tools does Jio use?"
+            ],
+            "responses": [
+                "Jio uses Microsoft Teams and Slack for collaboration.",
+                "You can create team channels for better communication.",
+                "For project management, use Jira or Asana.",
+                "Use Microsoft Teams or Slack for instant communication, and set up recurring meetings to keep your team aligned.",
+                "To schedule a brainstorming session, create an invite using Outlook or Google Calendar, set an agenda, and share it with participants.",
+                "If you need additional tools, submit a request to IT via the internal portal, specifying your project requirements.",
+                "Jio uses Jira, Asana, and Trello for project tracking—contact IT support if you need access."
+            ]
+        },
+        {
+            "tag": "cybersecurity",
+            "patterns": [
+                "How do I keep my work account secure?",
+                "What are the common cybersecurity threats?",
+                "How do I report a phishing attempt?",
+                "What should I do if I suspect a data breach?",
+                "Does Jio conduct cybersecurity training?",
+                "How do I set up multi-factor authentication for my Jio account?",
+                "What are the best practices for protecting my work email?",
+                "How do I report a potential data breach at Jio?",
+                "What should I do if I suspect malware on my system?"
+            ],
+            "responses": [
+                "Always use strong passwords and enable two-factor authentication.",
+                "Report any suspicious emails to security@jio.com.",
+                "Jio regularly conducts cybersecurity awareness training for employees.",
+                "To enable multi-factor authentication (MFA), log into your Jio account, go to security settings, and enable 2FA using an authentication app like Google Authenticator.",
+                "Avoid clicking on unknown email links, never share credentials, and enable email encryption settings for security.",
+                "If you suspect a data breach, immediately report it to security@jio.com and change your account passwords.",
+                "If malware is detected, disconnect from the network, run a full system scan using antivirus software, and report to IT support at ithelp@jio.com."
+            ]
+        },
+        {
+            "tag": "work_life_balance",
+            "patterns": [
+                "Does Jio support work-life balance?",
+                "Are there policies for avoiding burnout?",
+                "Can I adjust my work schedule?",
+                "How does Jio handle employee well-being?",
+                "What resources are available for stress management?"
+            ],
+            "responses": [
+                "Jio promotes work-life balance with flexible work schedules and wellness programs.",
+                "Employees have access to mental health support and time management resources.",
+                "For more details, visit the employee wellness portal."
+            ]
+        },
+        {
+            "tag": "performance_review",
+            "patterns": [
+                "How does the performance review process work?",
+                "When are performance evaluations conducted?",
+                "What factors affect my performance rating?",
+                "Can I appeal my performance review?",
+                "How can I improve my appraisal score?",
+                "How can I prepare for my performance review?",
+                "What should I include in my self-assessment report?",
+                "How is my annual appraisal calculated at Jio?",
+                "Can I negotiate my performance rating?"
+            ],
+            "responses": [
+                "Performance reviews are conducted annually based on goals and achievements.",
+                "Your performance rating depends on key deliverables and feedback.",
+                "For improvement tips, discuss with your manager or check internal guidelines.",
+                "To prepare for a performance review, document your key achievements, challenges overcome, and areas where you contributed beyond your job role.",
+                "Your self-assessment should include measurable accomplishments, teamwork contributions, and skill development areas to showcase your growth.",
+                "The annual appraisal is based on your project performance, feedback from peers and managers, and contributions towards company objectives.",
+                "If you feel your rating is unfair, discuss it with your manager and provide evidence supporting your contributions to request reconsideration."
+            ]
+        },
+        {
+            "tag": "internal_communications",
+            "patterns": [
+                "How do I stay updated with company news?",
+                "Where can I find the latest announcements?",
+                "Is there a newsletter for employees?",
+                "How do I share feedback with management?",
+                "Can I suggest ideas for company improvements?"
+            ],
+            "responses": [
+                "Jio sends regular updates via internal newsletters and the employee portal.",
+                "For feedback, use the anonymous suggestion box or discuss with HR.",
+                "You can find announcements on the Jio intranet platform."
+            ]
+        },
+        {
+            "tag": "diversity_inclusion",
+            "patterns": [
+                "What is Jio’s diversity policy?",
+                "Are there any inclusion programs at Jio?",
+                "How does Jio support gender equality?",
+                "Is there an LGBTQ+ support network?",
+                "What initiatives promote workplace diversity?"
+            ],
+            "responses": [
+                "Jio fosters an inclusive workplace with equal opportunities for all employees.",
+                "The company organizes diversity and inclusion workshops regularly.",
+                "For support programs, check the HR portal."
+            ]
+        }
+    ]
+}
